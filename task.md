@@ -33,12 +33,12 @@
   - File: `alarm_clock/terminal.py`
   - Covers: `tty.setcbreak`, `termios` setup/restoration, `atexit` hook, formatting `HH:MM:SS`, bell sound `\a`.
 
-- [ ] **Task 2.2: Implement main event loop and CLI entrypoint**
+- [x] **Task 2.2: Implement main event loop and CLI entrypoint**
   - Commit: `feat: implement main event loop and CLI entrypoint`
   - File: `main.py`
   - Connects: `parser.py`, `engine.py`, `terminal.py` via `select.select` non-blocking loop (0.1s tick).
 
-- [ ] **Task 2.3: Add integration tests for CLI loop & argument parsing**
+- [x] **Task 2.3: Add integration tests for CLI loop & argument parsing**
   - Commit: `test: add integration tests for CLI lifecycle and keyboard actions`
   - File: `tests/test_integration.py`
   - Verifies: CLI starts, handles interactive actions, cleans up on completion.
