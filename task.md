@@ -48,11 +48,11 @@
 ## Phase 3: E2E Verification & Delivery (PR #3: Verification & Polish)
 *Goal: End-to-end verification, all tests passing, ready to use.*
 
-- [ ] **Task 3.1: Execute full test suite**
+- [x] **Task 3.1: Execute full test suite**
   - Commit: `chore: verify test suite passes 100%`
   - Command: `python3 -m unittest discover tests`
 
-- [ ] **Task 3.2: E2E verification & Quickstart documentation**
+- [x] **Task 3.2: E2E verification & Quickstart documentation**
   - Commit: `docs: add quickstart guide to README.md`
   - File: `README.md`
   - Verifies: Live run with `python3 main.py 3s` to verify countdown, ringing, and dismissal.
