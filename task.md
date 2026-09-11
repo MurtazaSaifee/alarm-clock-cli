@@ -18,7 +18,7 @@
   - File: `tests/test_engine.py`
   - Covers: `READY` -> `RUNNING` -> `PAUSED` -> `RUNNING` -> `RINGING` -> `STOPPED`, monotonic time delta calculation.
 
-- [ ] **Task 1.4: Implement AlarmEngine**
+- [x] **Task 1.4: Implement AlarmEngine**
   - Commit: `feat: implement AlarmEngine state machine and monotonic clock ticker`
   - File: `alarm_clock/engine.py`
   - Verifies: `test_engine.py` passes.
