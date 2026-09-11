@@ -13,7 +13,7 @@
   - File: `alarm_clock/parser.py`
   - Verifies: `test_parser.py` passes.
 
-- [ ] **Task 1.3: Unit tests for AlarmEngine state machine**
+- [x] **Task 1.3: Unit tests for AlarmEngine state machine**
   - Commit: `test: add unit tests for AlarmEngine state transitions`
   - File: `tests/test_engine.py`
   - Covers: `READY` -> `RUNNING` -> `PAUSED` -> `RUNNING` -> `RINGING` -> `STOPPED`, monotonic time delta calculation.
