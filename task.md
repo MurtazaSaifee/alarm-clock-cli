@@ -28,7 +28,7 @@
 ## Phase 2: Terminal UI & Event Loop (PR #2: Interactive CLI)
 *Goal: Integrate non-blocking keyboard listener, ANSI in-place renderer, and main event loop.*
 
-- [ ] **Task 2.1: Implement TerminalController**
+- [x] **Task 2.1: Implement TerminalController**
   - Commit: `feat: add TerminalController with cbreak mode and ANSI rendering`
   - File: `alarm_clock/terminal.py`
   - Covers: `tty.setcbreak`, `termios` setup/restoration, `atexit` hook, formatting `HH:MM:SS`, bell sound `\a`.
