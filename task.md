@@ -8,7 +8,7 @@
   - File: `tests/test_parser.py`
   - Covers: relative durations (`10s`, `5m`, `1h`, `90`), target times (`HH:MM`), invalid format exceptions, past time handling.
 
-- [ ] **Task 1.2: Implement time & duration parser**
+- [x] **Task 1.2: Implement time & duration parser**
   - Commit: `feat: implement parse_target_seconds`
   - File: `alarm_clock/parser.py`
   - Verifies: `test_parser.py` passes.
