@@ -3,7 +3,7 @@
 ## Phase 1: Core Logic & Unit Tests (PR #1: Engine & Parser)
 *Goal: Implement decoupled, fully tested duration parsing and state engine using TDD.*
 
-- [ ] **Task 1.1: Unit tests for time & duration parser**
+- [x] **Task 1.1: Unit tests for time & duration parser**
   - Commit: `test: add unit tests for duration and target time parsing`
   - File: `tests/test_parser.py`
   - Covers: relative durations (`10s`, `5m`, `1h`, `90`), target times (`HH:MM`), invalid format exceptions, past time handling.
