@@ -4,7 +4,7 @@
 
 The CLI Alarm Clock is designed as a **single-threaded, non-blocking event loop** application relying solely on the Python 3 standard library (`time`, `select`, `termios`, `tty`, `sys`).
 
-A single-threaded event loop approach is selected over multi-threading to eliminate race conditions, synchronization locks, and thread lifecycle complexity, perfectly fitting the 30-minute MVP requirement while remaining robust and testable.
+A single-threaded event loop approach is selected over multi-threading to eliminate race conditions, synchronization locks, and thread lifecycle complexity, keeping the implementation minimal, deterministic, and testable.
 
 ```mermaid
 graph TD

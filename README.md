@@ -1,8 +1,17 @@
 # CLI Alarm Clock & Countdown Timer
 
+[![CI](https://github.com/MurtazaSaifee/alarm-clock-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/MurtazaSaifee/alarm-clock-cli/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 A lightweight, zero-dependency Python CLI alarm clock and countdown timer with real-time in-place progress tracking, non-blocking single-key pause/resume/stop controls, and sound/visual alerts.
 
 Built strictly with the Python standard library using a spec-driven and test-driven development (TDD) approach.
+
+## Engineering highlights
+
+- **Drift-free monotonic timing:** `AlarmEngine` computes elapsed time from `time.monotonic()` rather than `sleep()` accumulation, remaining unaffected by wall-clock jumps or pause/resume cycles.
+- **Non-blocking terminal controls with safe cleanup:** `TerminalController` uses `tty.setcbreak` + `select.select` for single-keypress pause/resume/stop without threads or locks, and restores terminal attributes via `try...finally` and `atexit`.
+- **Zero-dependency decoupled design:** Pure parser and state-machine modules are isolated from POSIX terminal I/O and covered by `unittest` unit and integration tests.
 
 ---
 

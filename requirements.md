@@ -6,7 +6,7 @@ A lightweight Python command-line interface (CLI) alarm clock application built 
 ---
 
 ## 2. Scope & Target Constraints
-- **Scope**: 30-minute MVP focused strictly on core functionality.
+- **Scope**: Focused core countdown, clock-target, and interactive control functionality.
 - **Interface**: Command-line interface only (no web UI, no database, no external services).
 - **Runtime**: Python 3 (macOS compatible, standard library preferred).
 
